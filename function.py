@@ -1,9 +1,4 @@
-nstudent = int(input("How many number of students? "))
-i =0
-while i <nstudent:
-    name= input(" name? ")
-    score= float(input(" score? "))
-
+def scrores(score):
     if 80<= score<=100:
         print("Excellent")
     elif 60<= score<=79.9:
@@ -14,4 +9,4 @@ while i <nstudent:
         print("fair")
     else:
         print("invalid number")
-    i= 1+1
+        i= 1+1
